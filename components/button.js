@@ -1,0 +1,1 @@
+define(function (require) {    var $=require('jquery');    var Dialog=require('dialog');    $('button.aspect').on('click',function () {        Dialog({            title: '真的心烦',            content: '大笨蛋，大坏蛋'        }).show().then(function () {            console.log('心烦吗')        }).catch(function () {            console.log('不心烦');        })    })})

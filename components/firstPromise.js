@@ -1,0 +1,1 @@
+define (function (require) {    var request=require('request');    request.getDayInfo().then(function (resp) {        console.log('zsj:',Object.keys(resp))    })});
